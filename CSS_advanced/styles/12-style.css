@@ -13,18 +13,9 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
 }
-a:link {
+a {
     color: #161616;
     text-decoration: none;
-}
-a:visited {
-    font-style: italic;
-}
-a:hover {
-    text-decoration: overline;
-}
-a:active {
-    background-color: var(--color-light-grey);
 }
 .visually-hidden {
     display: none;
