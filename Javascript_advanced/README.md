@@ -8,7 +8,7 @@
 - [Learning Objectives](#Learning-Objectives)
 - [Requirements](#Requirements)
 - [Task](#Task)
-- - [0. Lexical scoping and welcome message] (#0.-Lexical-scoping-and-welcome-message)
+ - [0. Lexical scoping and welcome message](#subparagraph1)
 - [Authors](#Authors)
 
 ## Resources
@@ -39,7 +39,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 * Your code should use the js extension
 
 ## Task
-### 0. Lexical scoping and welcome message
+### 0. Lexical scoping and welcome message <a name="subparagraph1"></a>
 
 Create a function named welcome:
 
