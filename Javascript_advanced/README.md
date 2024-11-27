@@ -2,6 +2,21 @@
 
 # JavaScript advanced
 
+## Table of Contents :
+
+- [Resources](# Resources)
+- [Learning Objectives](# Learning Objectives)
+- [Requirements](#Requirements)
+- [Task](#Flowchart)
+- [Usage](#Usage)
+- [Compilation](#Compilation)
+- [Mandatory Tasks](#Mandatory-Tasks)
+- [Specifiers](#Specifiers)
+- [Installation](#Installation)
+- [File description](#File-description)
+- [Examples and Tests](#Examples-and-Tests)
+- [Authors](#Authors)
+
 ## Resources
 ### Read or watch:
 https://intranet.hbtn.io/rltoken/ePGYHoF7G6QtQLrAo5jXBA
@@ -28,3 +43,5 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 * All your files should end with a new line
 * A README.md file, at the root of the folder of the project, is mandatory
 * Your code should use the js extension
+
+## Task
