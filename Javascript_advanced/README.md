@@ -8,6 +8,7 @@
 - [Learning Objectives](#Learning-Objectives)
 - [Requirements](#Requirements)
 - [Task](#Task)
+- - [0. Lexical scoping and welcome message] (#0.-Lexical-scoping-and-welcome-message)
 - [Authors](#Authors)
 
 ## Resources
