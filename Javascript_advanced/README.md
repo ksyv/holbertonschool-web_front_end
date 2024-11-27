@@ -5,9 +5,9 @@
 ## Table of Contents :
 
 - [Resources](#Resources)
-- [Learning Objectives](#Learning Objectives)
+- [Learning Objectives](#Learning-Objectives)
 - [Requirements](#Requirements)
-- [Task](#Flowchart)
+- [Task](#Task)
 - [Authors](#Authors)
 
 ## Resources
