@@ -4,17 +4,10 @@
 
 ## Table of Contents :
 
-- [Resources](# Resources)
-- [Learning Objectives](# Learning Objectives)
+- [Resources](#Resources)
+- [Learning Objectives](#Learning Objectives)
 - [Requirements](#Requirements)
 - [Task](#Flowchart)
-- [Usage](#Usage)
-- [Compilation](#Compilation)
-- [Mandatory Tasks](#Mandatory-Tasks)
-- [Specifiers](#Specifiers)
-- [Installation](#Installation)
-- [File description](#File-description)
-- [Examples and Tests](#Examples-and-Tests)
 - [Authors](#Authors)
 
 ## Resources
