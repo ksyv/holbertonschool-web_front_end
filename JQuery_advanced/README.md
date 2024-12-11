@@ -247,8 +247,6 @@ Requirements:
 Query results should display like this:
 <div align="center"><img src="https://github.com/ksyv/holbertonschool-web_front_end/blob/main/JQuery_advanced/readme_img/text.png"></div>
 
-
-
 ### 8. Chain DOM elements <a name="subparagraph9"></a>
 ### 9. Chain DOM elements <a name="subparagraph10"></a>
 ### 10. Chain DOM elements <a name="subparagraph11"></a>
