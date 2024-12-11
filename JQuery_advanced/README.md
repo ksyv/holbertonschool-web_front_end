@@ -144,4 +144,4 @@ Requirements:
 
 * You must use the keyword html to replace the content of the table
 * The table created by your script should look like this
-<img src="https://github.com/ksyv/holbertonschool-web_front_end/blob/main/JQuery_advanced/table2.png">
+<div align="center"><img src="https://github.com/ksyv/holbertonschool-web_front_end/blob/main/JQuery_advanced/table2.png"></div>
