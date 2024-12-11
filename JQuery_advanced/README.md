@@ -11,6 +11,7 @@
     - [0. Lexical scoping and welcome message](#subparagraph1)
     - [1. Creating a DOM element](#subparagraph2)
     - [2. Creating multiple DOM elements at once](#subparagraph3)
+    - [3. Chain DOM elements](#subparagraph4)
 - [Authors](#Authors)
 
 ## Resources
@@ -109,3 +110,22 @@ Requirements:
 * The table created by your script should look like this:
 <img src="https://github.com/ksyv/holbertonschool-web_front_end/blob/main/JQuery_advanced/table.png">
 
+### 3. Chain DOM elements <a name="subparagraph4"></a>
+
+In a file 3-index.html, reuse the template you created previously. Reuse also the function named createFamilyTree:
+
+* The table is containing the exact same values as the previous task
+* This time, create each element one by one
+* Use the keywords append for each element and text for the cells
+* Do not create any intermediate variable
+* Call the createFamilyTree function
+
+Tips:
+
+* You can append multiple elements at once, by separating the elements with a comma
+
+Requirements:
+
+* You must use jQuery only to generate the HTML tag and attach it to the page
+* The table created by your script should look like this:
+<img src="https://github.com/ksyv/holbertonschool-web_front_end/blob/main/JQuery_advanced/table.png">
