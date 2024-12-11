@@ -182,6 +182,7 @@ Requirements:
 * You must use the keywords click, css, and remove
 * The table created by your script should look like this:
 <div align="center"><img src="https://github.com/ksyv/holbertonschool-web_front_end/blob/main/JQuery_advanced/table3.png"></div>
+
 ### 6. Chain DOM elements <a name="subparagraph7"></a>
 ### 7. Chain DOM elements <a name="subparagraph8"></a>
 ### 8. Chain DOM elements <a name="subparagraph9"></a>
