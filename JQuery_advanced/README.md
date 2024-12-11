@@ -10,6 +10,7 @@
 - [Task](#Task)
     - [0. Lexical scoping and welcome message](#subparagraph1)
     - [1. Creating a DOM element](#subparagraph2)
+    - [2. Creating multiple DOM elements at once](#subparagraph3)
 - [Authors](#Authors)
 
 ## Resources
@@ -85,3 +86,26 @@ Requirements:
 
 * You must use jQuery only to generate the HTML tag and   attach it to the page
 * Use the keyword append to attach the element to the page
+
+### 2. Creating multiple DOM elements at once <a name="subparagraph3"></a>
+
+In a file 2-index.html, reuse the template you created previously.
+
+* Remove the function createTextElement
+* Create a function named createFamilyTree:
+    - It should create a table element
+        -The head of the table should display Firstname and Lastname in two cells
+        -The body of the table should three rows
+        -The first row should contain two cells with Guillaume and Salva
+        -The second row should contain two cells with Paulette and Salva
+        -The third row should contain two cells with Antoine and Salva
+    - Use the keyword append only once to attach all the elements of the table to the page
+* Call the createFamilyTree function
+
+Requirements:
+
+* You must use jQuery only to generate the HTML tag and attach it to the page
+* The entire table code should be contained in one string
+* The table created by your script should look like this:
+<img src="https://github.com/ksyv/holbertonschool-web_front_end/blob/main/JQuery_advanced/table.png">
+
