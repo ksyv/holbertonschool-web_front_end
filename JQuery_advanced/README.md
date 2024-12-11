@@ -117,7 +117,7 @@ Requirements:
 * You must use jQuery only to generate the HTML tag and attach it to the page
 * The entire table code should be contained in one string
 * The table created by your script should look like this:
-<div align="center"><img src="https://github.com/ksyv/holbertonschool-web_front_end/blob/main/JQuery_advanced/table.png"></div>
+<div align="center"><img src="https://github.com/ksyv/holbertonschool-web_front_end/blob/main/JQuery_advanced/readme_img/table.png"></div>
 
 ### 3. Chain DOM elements <a name="subparagraph4"></a>
 
@@ -137,7 +137,7 @@ Requirements:
 
 * You must use jQuery only to generate the HTML tag and attach it to the page
 * The table created by your script should look like this:
-<div align="center"><img src="https://github.com/ksyv/holbertonschool-web_front_end/blob/main/JQuery_advanced/table.png"></div>
+<div align="center"><img src="https://github.com/ksyv/holbertonschool-web_front_end/blob/main/JQuery_advanced/readme_img/table.png"></div>
 
 ### 4. HTML function <a name="subparagraph5"></a>
 
@@ -152,7 +152,7 @@ Requirements:
 
 * You must use the keyword html to replace the content of the table
 * The table created by your script should look like this
-<div align="center"><img src="https://github.com/ksyv/holbertonschool-web_front_end/blob/main/JQuery_advanced/table2.png"></div>
+<div align="center"><img src="https://github.com/ksyv/holbertonschool-web_front_end/blob/main/JQuery_advanced/readme_img/table2.png"></div>
 
 ### 5. Chain DOM elements <a name="subparagraph6"></a>
 
@@ -181,7 +181,7 @@ Requirements:
 
 * You must use the keywords click, css, and remove
 * The table created by your script should look like this:
-<div align="center"><img src="https://github.com/ksyv/holbertonschool-web_front_end/blob/main/JQuery_advanced/table3.png"></div>
+<div align="center"><img src="https://github.com/ksyv/holbertonschool-web_front_end/blob/main/JQuery_advanced/readme_img/table3.png"></div>
 
 ### 6. Chain DOM elements <a name="subparagraph7"></a>
 
@@ -205,7 +205,7 @@ Requirements:
 * You must use the keywords first, before, and prepend
 * To select the second input, use the nth-of-type selector
 * The form created by your script should look like this:
-<div align="center"><img src="https://github.com/ksyv/holbertonschool-web_front_end/blob/main/JQuery_advanced/form.png"></div>
+<div align="center"><img src="https://github.com/ksyv/holbertonschool-web_front_end/blob/main/JQuery_advanced/readme_img/form.png"></div>
 
 ### 7. Chain DOM elements <a name="subparagraph8"></a>
 ### 8. Chain DOM elements <a name="subparagraph9"></a>
