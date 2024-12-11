@@ -184,6 +184,29 @@ Requirements:
 <div align="center"><img src="https://github.com/ksyv/holbertonschool-web_front_end/blob/main/JQuery_advanced/table3.png"></div>
 
 ### 6. Chain DOM elements <a name="subparagraph7"></a>
+
+In a file 6-index.html, reuse the template you created previously.
+
+* Reuse the function createFamilyTree you wrote in the previous task
+* Reuse the function addNewMember you wrote in the previous task, and add the following modification:
+        - The function should accept a new argument position(string)
+        - When position is equal to before, it should add the row at the top of the table
+        - Otherwise, it should add the row at the bottom of the table
+* Write a function createForm:
+    - It should add before the table two input of type text
+    - It should add a select with two options as well: before and after with corresponding Before and After text
+    - It should add a input of type submit as well
+        - When the user clicks on the submit, it should call the function addNewMember with the value of the two inputs and the value of the select element
+* Call the function createFamilyTree
+* Call the function createForm
+
+Requirements:
+
+* You must use the keywords first, before, and prepend
+* To select the second input, use the nth-of-type selector
+* The form created by your script should look like this:
+<div align="center"><img src="https://github.com/ksyv/holbertonschool-web_front_end/blob/main/JQuery_advanced/form.png"></div>
+
 ### 7. Chain DOM elements <a name="subparagraph8"></a>
 ### 8. Chain DOM elements <a name="subparagraph9"></a>
 ### 9. Chain DOM elements <a name="subparagraph10"></a>
