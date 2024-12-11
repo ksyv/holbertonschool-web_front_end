@@ -12,6 +12,7 @@
     - [1. Creating a DOM element](#subparagraph2)
     - [2. Creating multiple DOM elements at once](#subparagraph3)
     - [3. Chain DOM elements](#subparagraph4)
+    - [4. HTML function](#subparagraph5)
 - [Authors](#Authors)
 
 ## Resources
@@ -129,3 +130,18 @@ Requirements:
 * You must use jQuery only to generate the HTML tag and attach it to the page
 * The table created by your script should look like this:
 <img src="https://github.com/ksyv/holbertonschool-web_front_end/blob/main/JQuery_advanced/table.png">
+
+### 4. HTML function <a name="subparagraph5"></a>
+
+In a file 4-index.html, reuse the template you created in the previous task. Reuse also the function named createFamilyTree.
+
+* Create a new function replaceFamilyTree:
+        - It should replace the children of the tbody elements with a new tr
+        - The tr element should contain two cells with Gerard and Bonissa in each
+* Make sure createFamilyTree and replaceFamilyTree are called
+
+Requirements:
+
+* You must use the keyword html to replace the content of the table
+* The table created by your script should look like this
+<img src="https://github.com/ksyv/holbertonschool-web_front_end/blob/main/JQuery_advanced/table2.png">
