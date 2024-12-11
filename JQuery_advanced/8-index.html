@@ -14,13 +14,13 @@
           height: auto;
         }
       #pagination {
-        list-style: none; /* Enlève les puces */
-        padding: 0; /* Enlève le padding par défaut */
-        margin: 0; /* Enlève la marge par défaut */
+        list-style: none; 
+        padding: 0; 
+        margin: 0;
       }
 
       #pagination li {
-        display: inline-block; /* Affiche les éléments en ligne */
+        display: inline-block;
         margin-left: 10px;
         cursor: pointer;
       }
@@ -37,8 +37,8 @@
         let form = $('<form>').appendTo('body');
         $('<input>').attr('type', 'text').appendTo(form);
         $('<input>').attr({ type: 'submit', value: 'Submit' }).appendTo(form);
-        $('<ul>').appendTo('body'); // Liste pour les résultats de recherche
-        $('<ul id="pagination">').appendTo('body'); // Liste pour la pagination
+        $('<ul>').appendTo('body'); 
+        $('<ul id="pagination">').appendTo('body');
 
         form.submit(function(event) {
           event.preventDefault();
@@ -52,7 +52,7 @@
           $('<p>').append($('<span>').text(id + ' - '), $('<b>').text(title)),
           $('<p>').html(snippet) 
         );
-        $('ul:not(#pagination)').append(li); // Ajoute l'article à la liste des résultats, pas à la pagination
+        $('ul:not(#pagination)').append(li);
       }
 
       function queryWikipedia(search, offset = 0) { 
@@ -67,7 +67,7 @@
             sroffset: offset 
           },
           success: function(response) {
-            $('ul:not(#pagination)').empty(); // Vide la liste des résultats
+            $('ul:not(#pagination)').empty();
             response.query.search.forEach(function(result) {
               addNewArticle(result.pageid, result.title, result.snippet);
             });
