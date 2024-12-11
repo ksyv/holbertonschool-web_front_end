@@ -1,4 +1,4 @@
-<img src="https://github.com/ksyv/holbertonschool-web_front_end/blob/main/baniere_holberton.png">
+<div align="center"><img src="https://github.com/ksyv/holbertonschool-web_front_end/blob/main/baniere_holberton.png"></div>
 
 # jQuery advanced
 
@@ -109,7 +109,7 @@ Requirements:
 * You must use jQuery only to generate the HTML tag and attach it to the page
 * The entire table code should be contained in one string
 * The table created by your script should look like this:
-<img src="https://github.com/ksyv/holbertonschool-web_front_end/blob/main/JQuery_advanced/table.png">
+<div align="center"><img src="https://github.com/ksyv/holbertonschool-web_front_end/blob/main/JQuery_advanced/table.png"></div>
 
 ### 3. Chain DOM elements <a name="subparagraph4"></a>
 
@@ -129,7 +129,7 @@ Requirements:
 
 * You must use jQuery only to generate the HTML tag and attach it to the page
 * The table created by your script should look like this:
-<img src="https://github.com/ksyv/holbertonschool-web_front_end/blob/main/JQuery_advanced/table.png">
+<div align="center"><img src="https://github.com/ksyv/holbertonschool-web_front_end/blob/main/JQuery_advanced/table.png"></div>
 
 ### 4. HTML function <a name="subparagraph5"></a>
 
