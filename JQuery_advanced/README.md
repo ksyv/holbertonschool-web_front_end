@@ -13,6 +13,14 @@
     - [2. Creating multiple DOM elements at once](#subparagraph3)
     - [3. Chain DOM elements](#subparagraph4)
     - [4. HTML function](#subparagraph5)
+    - [5. Click attribute and remove function](#subparagraph6)
+    - [6. Val, before, and prepend functions](#subparagraph7)
+    - [7. Query - Setup your dev environment](#subparagraph8)
+    - [8. Pagination](#subparagraph9)
+    - [9. Wrap/unwrap](#subparagraph10)
+    - [10. Another Get API](#subparagraph11)
+    - [11. Post query](#subparagraph12)
+    - [12. Delete query](#subparagraph13)
 - [Authors](#Authors)
 
 ## Resources
@@ -145,3 +153,39 @@ Requirements:
 * You must use the keyword html to replace the content of the table
 * The table created by your script should look like this
 <div align="center"><img src="https://github.com/ksyv/holbertonschool-web_front_end/blob/main/JQuery_advanced/table2.png"></div>
+
+### 5. Chain DOM elements <a name="subparagraph6"></a>
+
+In a file 5-index.html, reuse the template you created previously.
+
+* Remove the createFamilyTree and replaceFamilyTree functions
+* Create a function createFamilyTree:
+    - It should append to the body an empty table, with thead and two cells with text Firstname and Lastname, respectively
+    - It should append an empty tbody element to the table after the thead
+* Create a function addNewMember:
+    - It accepts two arguments firstName(string) and lastName(string)
+    - It appends to the body of the table a new row with three cells
+    - The first cell displays the firstName, the second cell displays the lastName
+    - The third cell displays (x)
+    - On click on the third cell, it should remove the row
+    - Add CSS to the third cell to have an orange background
+* Calls the function createFamilyTree
+* Using addNewMember, generate a fake table with:
+    - the first row Guillaume, Salva
+    - the second row Arielle, Snizt
+    - the third row Fanette, Snizt
+    - the fourth row Gerard, Snizt
+    - the fifth row Victor, Salva
+
+Requirements:
+
+* You must use the keywords click, css, and remove
+* The table created by your script should look like this:
+<div align="center"><img src="https://github.com/ksyv/holbertonschool-web_front_end/blob/main/JQuery_advanced/table3.png"></div>
+### 6. Chain DOM elements <a name="subparagraph7"></a>
+### 7. Chain DOM elements <a name="subparagraph8"></a>
+### 8. Chain DOM elements <a name="subparagraph9"></a>
+### 9. Chain DOM elements <a name="subparagraph10"></a>
+### 10. Chain DOM elements <a name="subparagraph11"></a>
+### 11. Chain DOM elements <a name="subparagraph12"></a>
+### 12. Chain DOM elements <a name="subparagraph13"></a>
