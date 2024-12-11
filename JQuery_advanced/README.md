@@ -14,9 +14,9 @@
 
 ## Resources
 ### Read or watch:
-https://releases.jquery.com/
-https://api.jquery.com/
-https://github.com/typicode/json-server/tree/v0
+* https://releases.jquery.com/
+* https://api.jquery.com/
+* https://github.com/typicode/json-server/tree/v0
 
 ## Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
