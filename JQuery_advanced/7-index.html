@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Task 7</title>
     <style>
-        /* Styles pour le bouton submit */
+        
         input[type="submit"] {
           background-color: white; 
           border: 1px solid gray;
@@ -35,7 +35,7 @@
       function addNewArticle(id, title, snippet) {
         let li = $('<li>').append(
           $('<p>').append($('<span>').text(id + ' - '), $('<b>').text(title)),
-          $('<p>').html(snippet) // Utilise html() pour afficher le HTML du snippet
+          $('<p>').html(snippet) 
         );
         $('ul').append(li);
       }
@@ -48,10 +48,10 @@
             list: 'search',
             srsearch: search,
             format: 'json',
-            origin: '*' // Important pour les requêtes cross-origin
+            origin: '*' 
           },
           success: function(response) {
-            $('ul').empty(); // Vide la liste avant d'ajouter de nouveaux résultats
+            $('ul').empty(); 
             response.query.search.forEach(function(result) {
               addNewArticle(result.pageid, result.title, result.snippet);
             });
