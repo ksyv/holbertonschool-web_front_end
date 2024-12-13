@@ -320,6 +320,7 @@ Setup your dev environment
 * Run the server using node_modules/.bin/json-server --watch db.json
 
 You are provided with this db.json, don’t forget to push it, you can change the values of the id, title, author, postId, name as you like
+
 '''
 {
   "posts": [
@@ -385,6 +386,7 @@ You are provided with this db.json, don’t forget to push it, you can change th
     "name": "typicode"
   }
 }
+
 '''
 
 In a file 10-index.html:
