@@ -411,7 +411,6 @@ In a file 10-index.html:
 Requirements:
 
 - You must use the get function from jQuery
-<div align="center"><img src="https://github.com/ksyv/holbertonschool-web_front_end/blob/main/JQuery_advanced/readme_img/text4.png"></div>
 
 ### 11. Post query <a name="subparagraph12"></a>
 
@@ -442,6 +441,7 @@ Requirements:
 * You must use the after function from jQuery
 With the JSON server running, your 11-index.html should look something like this in your browser (does not have to be exactly the same, rows and values depend on what’s in your db.json)
 
+<div align="center"><img src="https://github.com/ksyv/holbertonschool-web_front_end/blob/main/JQuery_advanced/readme_img/text4.png"></div>
 
 ### 12. Delete query <a name="subparagraph13"></a>
 
