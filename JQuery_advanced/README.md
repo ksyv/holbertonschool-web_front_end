@@ -321,7 +321,7 @@ Setup your dev environment
 
 You are provided with this db.json, don’t forget to push it, you can change the values of the id, title, author, postId, name as you like
 
-'''{
+```{
   "posts": [
     {
       "id": 1,
@@ -384,7 +384,7 @@ You are provided with this db.json, don’t forget to push it, you can change th
   "profile": {
     "name": "typicode"
   }
-}'''
+}```
 
 In a file 10-index.html:
 
