@@ -385,7 +385,8 @@ You are provided with this db.json, don’t forget to push it, you can change th
   "profile": {
     "name": "typicode"
   }
-}```
+}
+```
 
 In a file 10-index.html:
 
