@@ -51,7 +51,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 You are given this starter HTML for this task:
 
-'''<!DOCTYPE html>
+```<!DOCTYPE html>
 <html lang="en" dir="ltr">
 
     <head>
@@ -65,7 +65,7 @@ You are given this starter HTML for this task:
 
     </body>
 
-</html>'''
+</html>```
 
 In a file 0-index.html:
 
