@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Task 11</title>
+    <style>
+      input[type="submit"] {
+          background-color: white; 
+          border: 1px solid gray;
+          padding: 2px 10px;
+          margin: 2px;
+          cursor: pointer;
+          border-radius: 5px;
+          height: auto;
+        }
+    </style>
+  </head>
+  <body>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script type="application/javascript">
+      function addPostRow(data) {
+        let paragraph = $('<p>').append(
+          $('<span>').text(`Post created with id ${data.id}, title: ${data.title}, author: ${data.author}`)
+        );
+        $('body').append(paragraph);
+      }
+
+      function listPosts() {
+        $.get('http://localhost:3000/posts', function(data, status) {
+          if (status === 'success') {
+            data.forEach(post => addPostRow(post));
+          } else {
+            alert('Server Error');
+          }
+        });
+      }
+      function buildForm() {
+        let form = $('<form>').appendTo('body');
+
+        let authorDiv = $('<div>').appendTo(form);
+        $('<label for="author">').text('Author').appendTo(authorDiv);
+        $('<input type="text" id="author">').appendTo(authorDiv);
+
+        let titleDiv = $('<div>').appendTo(form);
+        $('<label for="title">').text('Title').appendTo(titleDiv);
+        $('<textarea id="title">').appendTo(titleDiv);
+
+          $('<input>').attr({ type: 'submit', value: 'Submit' }).appendTo(form);
+
+        form.submit(function(event) {
+          event.preventDefault();
+          sendForm();
+        });
+      }
+
+      function sendForm() {
+        $('form').after('<p>About to send the query to the API</p>');
+        let data = {
+          author: $('#author').val(),
+          title: $('#title').val()
+        };
+
+        $.ajax({
+          url: 'http://localhost:3000/posts',
+          type: 'POST',
+          data: JSON.stringify(data), 
+          contentType: 'application/json',
+          success: function(response) {
+            addPostRow(response); 
+          },
+          error: function() {
+            alert('Error sending the POST query');
+          }
+        });
+      }
+
+      $(document).ready(function() {
+        listPosts();
+        buildForm();
+      });
+    </script>
+  </body>
+</html>
