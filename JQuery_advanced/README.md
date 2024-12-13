@@ -65,7 +65,8 @@ You are given this starter HTML for this task:
 
     </body>
 
-</html>```
+</html>
+```
 
 In a file 0-index.html:
 
