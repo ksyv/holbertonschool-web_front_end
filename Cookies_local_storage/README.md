@@ -47,117 +47,118 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 ## Task
 ### 0. Create basic cookie <a name="subparagraph1"></a>
 
-Install your development environment:
+  Install your development environment:
 
-* Installwebpack-dev-server by running npm install webpack-dev-server --save-dev (if you have some errors of missing dependencies, install these packages: npm i -D webpack and npm i -D webpack-cli)
-* Create an empty file src/index.js
-* Run your server with node_modules/.bin/webpack-dev-server
+  * Installwebpack-dev-server by running npm install webpack-dev-server --save-dev (if you have some errors of missing dependencies, install these packages: npm i -D webpack and npm i -D webpack-cli)
+  * Create an empty file src/index.js
+  * Run your server with node_modules/.bin/webpack-dev-server
 
-In a file 0-index.html, create a basic html template:
+  In a file 0-index.html, create a basic html template:
 
-* Add two text inputs, with the id firstname and email
-* Add one button with the text “Log me in” that will call the function setCookies
-* Add one button with the text “Show the cookies” that will call the function showCookies
-* Create a function setCookies:
-    - It should set the cookie firstname with the value in the firstname input
-    - It should set the cookie email with the value in the email input
-* Create a function showCookies:
-    - It should create a DOM element p
-    - It should set the inner html with Cookies: and the value of the cookie
-    - It should append the paragraph at the bottom of the page
+  * Add two text inputs, with the id firstname and email
+  * Add one button with the text “Log me in” that will call the function setCookies
+  * Add one button with the text “Show the cookies” that will call the function showCookies
+  * Create a function setCookies:
+      - It should set the cookie firstname with the value in the firstname input
+      - It should set the cookie email with the value in the email input
+  * Create a function showCookies:
+      - It should create a DOM element p
+      - It should set the inner html with Cookies: and the value of the cookie
+      - It should append the paragraph at the bottom of the page
 
-Requirements:
+  Requirements:
 
-* Try to make your page to look as close to the image below as possible
+  * Try to make your page to look as close to the image below as possible
 
-<div align="center"><img src="./task0.png"></div>
+  <div align="center"><img src="./task0.png"></div>
 
-* Access your code with http://localhost:8080/0-index.html
-* Use vanilla javascript to complete the task
+  * Access your code with http://localhost:8080/0-index.html
+  * Use vanilla javascript to complete the task
 
-Tips:
+  Tips:
 
-* If you are using VSCode, you can use the plugin live server
-* Make sure you have created and configured webpack.config.js
+  * If you are using VSCode, you can use the plugin live server
+  * Make sure you have created and configured webpack.config.js
 
 ### 1. Create cookie with expiration date and specific path <a name="subparagraph2"></a>
 
-In a file 1-index.html:
+  In a file 1-index.html:
 
-* Reuse the code of the previous task
-* Modify the way you are setting cookies to expire in 10 days
+  * Reuse the code of the previous task
+  * Modify the way you are setting cookies to expire in 10 days
 
-Requirements:
+  Requirements:
 
-* Access your code with http://localhost:8080/1-index.html
-* Use vanilla javascript to complete the task
+  * Access your code with http://localhost:8080/1-index.html
+  * Use vanilla javascript to complete the task
 
 ### 2. Read cookie <a name="subparagraph3"></a>
 
-In a file 2-index.html:
+  In a file 2-index.html:
 
-* Reuse the code of the previous task
+  * Reuse the code of the previous task
 
-* Create a function getCookie:
+  * Create a function getCookie:
 
-  - It accepts name as argument
-  - It should return the value of the cookie with the name passed in argument
-  - If the cookie does not exist, it should return an empty string
+    - It accepts name as argument
+    - It should return the value of the cookie with the name passed in argument
+    - If the cookie does not exist, it should return an empty string
 
-* Modify the function showCookies:
+  * Modify the function showCookies:
 
-  - It should display the paragraph Email: EMAIL - Firstname: FIRSTNAME
+    - It should display the paragraph Email: EMAIL - Firstname: FIRSTNAME
 
-Requirements:
+  Requirements:
 
-* Access your code with http://localhost:8080/2-index.html
-* Use vanilla javascript to complete the task
+  * Access your code with http://localhost:8080/2-index.html
+  * Use vanilla javascript to complete the task
 
 ### 3. Delete cookie and mini application <a name="subparagraph4"></a>
 
-in a file 3-index.html, reuse your code from the previous task
+  in a file 3-index.html, reuse your code from the previous task
 
-* add a div in html that will contain the login form:
+  * add a div in html that will contain the login form:
 
-  - You can reuse the one you previously wrote
-  - It has one h2
-  - It has two text inputs
-  - It has one button
+    - You can reuse the one you previously wrote
+    - It has one h2
+    - It has two text inputs
+    - It has one button
 
-* Write a function named showForm:
+  * Write a function named showForm:
 
-  - It should remove the Welcome message if it exists
-  - It should show the form
+    - It should remove the Welcome message if it exists
+    - It should show the form
 
-* Write a function named hideForm:
+  * Write a function named hideForm:
 
-  - It should hide the form
+    - It should hide the form
 
-* Write a function named deleteCookiesAndShowForm:
+  * Write a function named deleteCookiesAndShowForm:
 
-  - It should remove the two cookies
-  - it should show the form by calling the showForm function
+    - It should remove the two cookies
+    - it should show the form by calling the showForm function
 
-* Write a function named showWelcomeMessageOrForm:
+  * Write a function named showWelcomeMessageOrForm:
 
-  - if user is not logged in, the function showForm is called
-  - If the user is logged in, replace the body of the page with a h1
-    - It should display Welcome FIRSTNAME (logout)
-    - (logout) should be a link
-      - The link font should be display in normal weight, italic, and 10px to the right of the message
-      - On click, call the function deleteCookiesAndShowForm, hide the welcome message, and show the form
+    - if user is not logged in, the function showForm is called
+    - If the user is logged in, replace the body of the page with a h1
+      - It should display Welcome FIRSTNAME (logout)
+      - (logout) should be a link
+        - The link font should be display in normal weight, italic, and 10px to the right of the message
+        - On click, call the function deleteCookiesAndShowForm, hide the welcome message, and show the form
 
-Requirements:
+  Requirements:
 
-* Access your code with http://localhost:8080/3-index.html
-* Use vanilla javascript to complete the task
-* Build the Welcome message with Javascript without using HTML
+  * Access your code with http://localhost:8080/3-index.html
+  * Use vanilla javascript to complete the task
+  * Build the Welcome message with Javascript without using HTML
 
-The login form should look like the image below
-<div align="center"><img src="./task3_0.png"></div>
+  The login form should look like the image below
+  <div align="center"><img src="./task3_0.png"></div>
 
-When a user is logged in the page should look like the image below
-<div align="center"><img src="./task3.png"></div>
+  When a user is logged in the page should look like the image below
+  <div align="center"><img src="./task3.png"></div>
+
 ### 4. HTML function <a name="subparagraph5"></a>
 
 In a file 4-index.html, reuse the template you created in the previous task. Reuse also the function named createFamilyTree.
