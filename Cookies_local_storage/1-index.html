@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taks 0</title>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="./src/index.js"></script>
+</head>
+<body>
+  <script>
+    // Run function when the user click on button
+    $(document).ready(function () {
+      $("#setCookies").on("click", setCookie);
+      $("#showCookies").on("click", showCookies);
+    });
+    //Create cookie 
+    function setCookie() {
+      let firstName = $('#firstname').val();
+      let email = $('#email').val();
+
+      // Calcul de la date d'expiration
+      const expirationDate = new Date();
+      expirationDate.setDate(expirationDate.getDate() + 10); 
+
+      // Formatage de la date d'expiration
+      const expires = expirationDate.toUTCString(); 
+
+      if (firstName) {
+        document.cookie = `firstname=${firstName}; path=/; expires=${expires}`
+      }
+      if (email) {
+        document.cookie = `email=${email}; path=/; expires=${expires}`
+      }
+    }
+    function getCookie(name) {
+      return document.cookie
+    }
+    function showCookies() {
+      let email = getCookie("email");
+      let firstName = getCookie("firstname");
+      $('body').append(`<p>${firstName}</p>`);
+    }
+  </script>
+  <h1>Login to website</h1>
+  <input type="text" id="firstname" placeholder="Firstname">
+  <input type="text" id="email" placeholder="Email">
+  <button id="setCookies">Log me in</button>
+  <h1>Cookies</h1>
+  <button id="showCookies">Show the cookies</button>
+</body>
+</html>
