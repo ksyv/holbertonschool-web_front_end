@@ -80,21 +80,17 @@ Tips:
 * If you are using VSCode, you can use the plugin live server
 * Make sure you have created and configured webpack.config.js
 
-### 1. Creating a DOM element <a name="subparagraph2"></a>
+### 1. Create cookie with expiration date and specific path <a name="subparagraph2"></a>
 
-In a file 1-index.html, reuse the template you created previously.
+In a file 1-index.html:
 
-* Remove the code that verifies jQuery loaded and logs messages to the console
-* Create a function named createTextElement:
-    - Within the function, create a p HTML element
-    - The paragraph should display '''Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in diam risus. Nunc sit amet euismod ipsum. Aenean tempus ex sed est volutpat, sed sodales velit tempus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin auctor sollicitudin eleifend. Vivamus porta enim vitae mauris commodo, vitae tempor tellus elementum. Quisque sed pellentesque nulla, at eleifend nisi. Phasellus eget tincidunt ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit.'''
-    - Add the paragraph to the body of the page
-* Call the createTextElement function
+* Reuse the code of the previous task
+* Modify the way you are setting cookies to expire in 10 days
 
 Requirements:
 
-* You must use jQuery only to generate the HTML tag and   attach it to the page
-* Use the keyword append to attach the element to the page
+* Access your code with http://localhost:8080/1-index.html
+* Use vanilla javascript to complete the task
 
 ### 2. Creating multiple DOM elements at once <a name="subparagraph3"></a>
 
