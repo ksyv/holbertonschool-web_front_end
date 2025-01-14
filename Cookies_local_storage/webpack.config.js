@@ -20,7 +20,11 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './2-index.html',
       filename: '2-index.html'
-    })
+    }),
+    new HtmlWebpackPlugin({
+      template: './3-index.html',
+      filename: '3-index.html'
+    }),
   ],
   module: {
     rules: [
