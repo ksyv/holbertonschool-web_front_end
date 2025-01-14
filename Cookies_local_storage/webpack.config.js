@@ -16,6 +16,10 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './1-index.html',
       filename: '1-index.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './2-index.html',
+      filename: '2-index.html'
     })
   ],
   module: {
