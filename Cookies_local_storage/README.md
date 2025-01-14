@@ -92,27 +92,26 @@ Requirements:
 * Access your code with http://localhost:8080/1-index.html
 * Use vanilla javascript to complete the task
 
-### 2. Creating multiple DOM elements at once <a name="subparagraph3"></a>
+### 2. Read cookie <a name="subparagraph3"></a>
 
-In a file 2-index.html, reuse the template you created previously.
+In a file 2-index.html:
 
-* Remove the function createTextElement
-* Create a function named createFamilyTree:
-    - It should create a table element
-        -The head of the table should display Firstname and Lastname in two cells
-        -The body of the table should three rows
-        -The first row should contain two cells with Guillaume and Salva
-        -The second row should contain two cells with Paulette and Salva
-        -The third row should contain two cells with Antoine and Salva
-    - Use the keyword append only once to attach all the elements of the table to the page
-* Call the createFamilyTree function
+* Reuse the code of the previous task
+
+* Create a function getCookie:
+
+  - It accepts name as argument
+  - It should return the value of the cookie with the name passed in argument
+  - If the cookie does not exist, it should return an empty string
+
+* Modify the function showCookies:
+
+  - It should display the paragraph Email: EMAIL - Firstname: FIRSTNAME
 
 Requirements:
 
-* You must use jQuery only to generate the HTML tag and attach it to the page
-* The entire table code should be contained in one string
-* The table created by your script should look like this:
-<div align="center"><img src="https://github.com/ksyv/holbertonschool-web_front_end/blob/main/JQuery_advanced/readme_img/table.png"></div>
+* Access your code with http://localhost:8080/2-index.html
+* Use vanilla javascript to complete the task
 
 ### 3. Chain DOM elements <a name="subparagraph4"></a>
 
