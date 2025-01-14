@@ -25,6 +25,22 @@ module.exports = {
       template: './3-index.html',
       filename: '3-index.html'
     }),
+    new HtmlWebpackPlugin({
+      template: './4-index.html',
+      filename: '4-index.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './5-index.html',
+      filename: '5-index.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './6-index.html',
+      filename: '6-index.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './7-index.html',
+      filename: '7-index.html'
+    }),
   ],
   module: {
     rules: [
