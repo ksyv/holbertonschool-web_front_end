@@ -9,11 +9,6 @@
 </head>
 <body>
   <script>
-    // Run function when the user click on button
-    $(document).ready(function () {
-      $("#setCookies").on("click", setCookie);
-      $("#showCookies").on("click", showCookies);
-    });
     //Create cookie 
     function setCookie() {
       let firstName = $('#firstname').val();
@@ -41,6 +36,8 @@
       let firstName = getCookie("firstname");
       $('body').append(`<p>${firstName}</p>`);
     }
+    document.getElementById('setCookies').addEventListener('click', setCookie);
+    document.getElementById('showCookies').addEventListener('click', showCookies);
   </script>
   <h1>Login to website</h1>
   <input type="text" id="firstname" placeholder="Firstname">

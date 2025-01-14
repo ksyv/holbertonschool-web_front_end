@@ -4,15 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Taks 0</title>
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script src="./src/index.js"></script>
 </head>
 <body>
   <script>
-    $(document).ready(function () {
-      $("#setCookies").on("click", setCookie);
-      $("#showCookies").on("click", showCookies);
-    });
     function setCookie() {
       let firstName = $('#firstname').val();
       let email = $('#email').val();
@@ -31,6 +26,8 @@
       let firstName = getCookie("firstname");
       $('body').append(`<p>${firstName}</p>`);
     }
+    document.getElementById('setCookies').addEventListener('click', setCookie);
+    document.getElementById('showCookies').addEventListener('click', showCookies);
   </script>
   <h1>Login to website</h1>
   <input type="text" id="firstname" placeholder="Firstname">
