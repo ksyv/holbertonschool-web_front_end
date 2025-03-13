@@ -4,20 +4,20 @@
 
 ## Table of Contents :
 
-  - [Setup your dev environment](#subparagraph1)
-  - [Creating a DOM element](#subparagraph2)
-  - [Creating multiple DOM elements at once](#subparagraph3)
-  - [Chain DOM elements](#subparagraph4)
-  - [HTML function](#subparagraph5)
-  - [Click attribute and remove function](#subparagraph6)
-  - [Val, before, and prepend functions](#subparagraph7)
-  - [Query - Setup your dev environment](#subparagraph8)
-  - [Pagination](#subparagraph9)
-  - [Wrap/unwrap](#subparagraph10)
-  - [Another Get API](#subparagraph11)
-  - [Post query](#subparagraph12)
-  - [Delete query](#subparagraph13)
-  - [Tasks list](#subparagraph14)
+  - [0. Setup your dev environment](#subparagraph0)
+  - [1. Creating a DOM element](#subparagraph1)
+  - [2. Creating multiple DOM elements at once](#subparagraph2)
+  - [3. Chain DOM elements](#subparagraph3)
+  - [4. HTML function](#subparagraph4)
+  - [5. Click attribute and remove function](#subparagraph5)
+  - [6. Val, before, and prepend functions](#subparagraph6)
+  - [7. Query - Setup your dev environment](#subparagraph7)
+  - [8. Pagination](#subparagraph8)
+  - [9. Wrap/unwrap](#subparagraph9)
+  - [10. Another Get API](#subparagraph10)
+  - [11. Post query](#subparagraph11)
+  - [12. Delete query](#subparagraph12)
+  - [13. Tasks list](#subparagraph13)
 
 ## Resources
 ### Read or watch:
@@ -42,7 +42,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 * AREADME.mdfile, at the root of the folder of the project, is mandatory
 
 ## Task
-### Setup your dev environment <a name='subparagraph1'></a>
+### 0. Setup your dev environment <a name='subparagraph0'></a>
 
 You are given this starter HTML for this task:
 
@@ -76,7 +76,9 @@ Requirements
 
 * Make sure your code is in ascriptof typeapplication/javascript
 
-### Creating a DOM element <a name='subparagraph2'></a>
+---
+
+### 1. Creating a DOM element <a name='subparagraph1'></a>
 
 In a file 1-index.html , reuse the template you created previously.
 
@@ -92,7 +94,9 @@ Requirements:
 * You must use jQuery only to generate the HTML tag and attach it to the page
 * Use the keywordappendto attach the element to the page
 
-### Creating multiple DOM elements at once <a name='subparagraph3'></a>
+---
+
+### 2. Creating multiple DOM elements at once <a name='subparagraph2'></a>
 
 In a file 2-index.html , reuse the template you created previously.
 
@@ -116,7 +120,9 @@ The table created by your script should look like this
 
 
 
-### Chain DOM elements <a name='subparagraph4'></a>
+---
+
+### 3. Chain DOM elements <a name='subparagraph3'></a>
 
 In a file 3-index.html , reuse the template you created previously. Reuse also the function named createFamilyTree :
 
@@ -138,7 +144,9 @@ The table created by your script should look like this
 
 
 
-### HTML function <a name='subparagraph5'></a>
+---
+
+### 4. HTML function <a name='subparagraph4'></a>
 
 In a file 4-index.html , reuse the template you created in the previous task. Reuse also the function named createFamilyTree .
 
@@ -155,7 +163,9 @@ The table created by your script should look like this
 
 
 
-### Click attribute and remove function <a name='subparagraph6'></a>
+---
+
+### 5. Click attribute and remove function <a name='subparagraph5'></a>
 
 In a file 5-index.html , reuse the template you created previously.
 
@@ -186,7 +196,9 @@ The table created by your script should look like this:
 
 
 
-### Val, before, and prepend functions <a name='subparagraph7'></a>
+---
+
+### 6. Val, before, and prepend functions <a name='subparagraph6'></a>
 
 In a file 6-index.html , reuse the template you created previously.
 
@@ -212,7 +224,9 @@ The form created by your script should look like this:
 
 
 
-### Query - Setup your dev environment <a name='subparagraph8'></a>
+---
+
+### 7. Query - Setup your dev environment <a name='subparagraph7'></a>
 
 In a file 7-index.html , reuse the template you created in the previous task
 
@@ -251,7 +265,9 @@ Query results should display like this:
 
 
 
-### Pagination <a name='subparagraph9'></a>
+---
+
+### 8. Pagination <a name='subparagraph8'></a>
 
 In a file 8-index.html , reuse the code from the previous task
 
@@ -285,7 +301,9 @@ The query results should display like this, notice how the 12 is in bold, becaus
 
 
 
-### Wrap/unwrap <a name='subparagraph10'></a>
+---
+
+### 9. Wrap/unwrap <a name='subparagraph9'></a>
 
 In a file 9-index.html , reuse the code from the previous task
 
@@ -309,7 +327,9 @@ How the page should look when results are loading
 
 
 
-### Another Get API <a name='subparagraph11'></a>
+---
+
+### 10. Another Get API <a name='subparagraph10'></a>
 
 Setup your dev environment
 
@@ -404,7 +424,9 @@ Requirements:
 
 * You must use thegetfunction from jQuery
 
-### Post query <a name='subparagraph12'></a>
+---
+
+### 11. Post query <a name='subparagraph11'></a>
 
 In a file 11-index.html , reuse the code you previously wrote
 
@@ -432,7 +454,9 @@ With the JSON server running, your 11-index.html should look something like this
 
 
 
-### Delete query <a name='subparagraph13'></a>
+---
+
+### 12. Delete query <a name='subparagraph12'></a>
 
 In a file 12-index.html , reuse your code from the previous task
 
@@ -454,10 +478,14 @@ With your JSON server running, 12-index.html should look like this in your brows
 
 
 
-### Tasks list <a name='subparagraph14'></a>
+---
+
+### 13. Tasks list <a name='subparagraph13'></a>
 
 * Mandatory
 * Advanced
+
+---
 
 
 ## Authors
