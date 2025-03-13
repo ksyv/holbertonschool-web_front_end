@@ -46,7 +46,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 You are given this starter HTML for this task:
 
-```html
+`html
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -62,7 +62,7 @@ You are given this starter HTML for this task:
     </body>
 
 </html>
-```
+`
 
 <strong>In a file <code>0-index.html</code>:</strong>
 
@@ -84,9 +84,11 @@ You are given this starter HTML for this task:
 
 * Remove the code that verifies jQuery loaded and logs messages to the console
 * Create a function named <code>createTextElement</code>:
-* Within the function, create a <code>p</code> HTML element
-* The paragraph should display <code>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in diam risus. Nunc sit amet euismod ipsum. Aenean tempus ex sed est volutpat, sed sodales velit tempus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin auctor sollicitudin eleifend. Vivamus porta enim vitae mauris commodo, vitae tempor tellus elementum. Quisque sed pellentesque nulla, at eleifend nisi. Phasellus eget tincidunt ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</code>
-* Add the paragraph to the <code>body</code> of the page
+
+
+  * Within the function, create a <code>p</code> HTML element
+  * The paragraph should display <code>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in diam risus. Nunc sit amet euismod ipsum. Aenean tempus ex sed est volutpat, sed sodales velit tempus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin auctor sollicitudin eleifend. Vivamus porta enim vitae mauris commodo, vitae tempor tellus elementum. Quisque sed pellentesque nulla, at eleifend nisi. Phasellus eget tincidunt ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</code>
+  * Add the paragraph to the <code>body</code> of the page
 * Call the <code>createTextElement</code> function
 
 <strong>Requirements:</strong>
@@ -98,19 +100,21 @@ You are given this starter HTML for this task:
 
 ### 2. Creating multiple DOM elements at once <a name='subparagraph2'></a>
 
-![](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2020/3/b65cd64b2fe0bf2a2efd.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20250313%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20250313T114848Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=9cd89475d4aa0c6a157f90652d0adc151db52fe3864a91524ca11733f6ac2fcb)
-
 <strong>In a file <code>2-index.html</code>, reuse the template you created previously.</strong>
 
 * Remove the function <code>createTextElement</code>
 * Create a function named <code>createFamilyTree</code>:
-* It should create a table element
-* The head of the table should display <code>Firstname</code> and <code>Lastname</code> in two cells
-* The body of the table should three rows
-* The first row should contain two cells with <code>Guillaume</code> and <code>Salva</code>
-* The second row should contain two cells with <code>Paulette</code> and <code>Salva</code>
-* The third row should contain two cells with <code>Antoine</code> and <code>Salva</code>
-* Use the keyword <code>append</code> only once to attach all the elements of the table to the page
+
+
+  * It should create a table element
+
+
+    * The head of the table should display <code>Firstname</code> and <code>Lastname</code> in two cells
+    * The body of the table should three rows
+    * The first row should contain two cells with <code>Guillaume</code> and <code>Salva</code>
+    * The second row should contain two cells with <code>Paulette</code> and <code>Salva</code>
+    * The third row should contain two cells with <code>Antoine</code> and <code>Salva</code>
+  * Use the keyword <code>append</code> only once to attach all the elements of the table to the page
 * Call the <code>createFamilyTree</code> function
 
 <strong>Requirements:</strong>
@@ -125,8 +129,6 @@ You are given this starter HTML for this task:
 ---
 
 ### 3. Chain DOM elements <a name='subparagraph3'></a>
-
-![](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2020/3/ec35dc2f7b81b4be4a47.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20250313%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20250313T114848Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=b61fae8d164d7008bb3275351b356092b026df020c078e324213361623fc9f1d)
 
 <strong>In a file <code>3-index.html</code>, reuse the template you created previously. Reuse also the function named <code>createFamilyTree</code>:</strong>
 
@@ -152,13 +154,13 @@ You are given this starter HTML for this task:
 
 ### 4. HTML function <a name='subparagraph4'></a>
 
-![](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2020/3/dac8d3e497a6b0fef6ec.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20250313%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20250313T114848Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=51022cc64e821c5951240d80307973eeeeacdec6ea97f5c7fd3d16f48c4d19c4)
-
 <strong>In a file <code>4-index.html</code>, reuse the template you created in the previous task. Reuse also the function named <code>createFamilyTree</code>.</strong>
 
 * Create a new function <code>replaceFamilyTree</code>:
-* It should replace the children of the <code>tbody</code> elements with a new <code>tr</code>
-* The <code>tr</code> element should contain two cells with <code>Gerard</code> and <code>Bonissa</code> in each
+
+
+  * It should replace the children of the <code>tbody</code> elements with a new <code>tr</code>
+  * The <code>tr</code> element should contain two cells with <code>Gerard</code> and <code>Bonissa</code> in each
 * Make sure <code>createFamilyTree</code> and <code>replaceFamilyTree</code> are called
 
 <strong>Requirements:</strong>
@@ -173,28 +175,32 @@ You are given this starter HTML for this task:
 
 ### 5. Click attribute and remove function <a name='subparagraph5'></a>
 
-![](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2020/3/6aa4c6aafa86f320f78d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20250313%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20250313T114848Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=d5d513df3c2f7b79269c496fb283fc080a9a5a48912165ba7a89f5afe51c72f6)
-
 <strong>In a file <code>5-index.html</code>, reuse the template you created previously.</strong>
 
 * Remove the <code>createFamilyTree</code> and <code>replaceFamilyTree</code> functions
 * Create a function <code>createFamilyTree</code>:
-* It should append to the <code>body</code> an empty table, with <code>thead</code> and two cells with text <code>Firstname</code> and <code>Lastname</code>, respectively
-* It should append an empty <code>tbody</code> element to the <code>table</code> after the <code>thead</code>
+
+
+  * It should append to the <code>body</code> an empty table, with <code>thead</code> and two cells with text <code>Firstname</code> and <code>Lastname</code>, respectively
+  * It should append an empty <code>tbody</code> element to the <code>table</code> after the <code>thead</code>
 * Create a function <code>addNewMember</code>:
-* It accepts two arguments <code>firstName</code>(string) and <code>lastName</code>(string)
-* It appends to the body of the <code>table</code> a new row with three cells
-* The first cell displays the <code>firstName</code>, the second cell displays the <code>lastName</code>
-* The third cell displays <code>(x)</code>
-* On click on the third cell, it should remove the row
-* Add CSS to the third cell to have an <code>orange</code> background
+
+
+  * It accepts two arguments <code>firstName</code>(string) and <code>lastName</code>(string)
+  * It appends to the body of the <code>table</code> a new row with three cells
+  * The first cell displays the <code>firstName</code>, the second cell displays the <code>lastName</code>
+  * The third cell displays <code>(x)</code>
+  * On click on the third cell, it should remove the row
+  * Add CSS to the third cell to have an <code>orange</code> background
 * Calls the function <code>createFamilyTree</code>
 * Using <code>addNewMember</code>, generate a fake table with:
-* the first row <code>Guillaume</code>, <code>Salva</code>
-* the second row <code>Arielle</code>, <code>Snizt</code>
-* the third row <code>Fanette</code>, <code>Snizt</code>
-* the fourth row <code>Gerard</code>, <code>Snizt</code>
-* the fifth row <code>Victor</code>, <code>Salva</code>
+
+
+  * the first row <code>Guillaume</code>, <code>Salva</code>
+  * the second row <code>Arielle</code>, <code>Snizt</code>
+  * the third row <code>Fanette</code>, <code>Snizt</code>
+  * the fourth row <code>Gerard</code>, <code>Snizt</code>
+  * the fifth row <code>Victor</code>, <code>Salva</code>
 
 <strong>Requirements:</strong>
 
@@ -208,20 +214,24 @@ You are given this starter HTML for this task:
 
 ### 6. Val, before, and prepend functions <a name='subparagraph6'></a>
 
-![](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2020/3/06a560c3cf7cbd67ebd4.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20250313%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20250313T114848Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=c764370d00b6c31886f1a1e87dde00b488cbc7d9642d3b55bda6fe65f45be6a1)
-
 <strong>In a file <code>6-index.html</code>, reuse the template you created previously.</strong>
 
 * Reuse the function <code>createFamilyTree</code> you wrote in the previous task
 * Reuse the function <code>addNewMember</code> you wrote in the previous task, and add the following modification:
-* The function should accept a new argument <code>position</code>(string)
-* When position is equal to <code>before</code>, it should add the row at the top of the table
-* Otherwise, it should add the row at the bottom of the table
+
+
+  * The function should accept a new argument <code>position</code>(string)
+  * When position is equal to <code>before</code>, it should add the row at the top of the table
+  * Otherwise, it should add the row at the bottom of the table
 * Write a function <code>createForm</code>:
-* It should add before the table two <code>input</code> of type <code>text</code>
-* It should add a <code>select</code> with two options as well: <code>before</code> and <code>after</code> with corresponding <code>Before</code> and <code>After</code> text
-* It should add a <code>input</code> of type <code>submit</code> as well
-* When the user clicks on the submit, it should call the function <code>addNewMember</code> with the value of the two inputs and the value of the select element
+
+
+  * It should add before the table two <code>input</code> of type <code>text</code>
+  * It should add a <code>select</code> with two options as well: <code>before</code> and <code>after</code> with corresponding <code>Before</code> and <code>After</code> text
+  * It should add a <code>input</code> of type <code>submit</code> as well
+
+
+    * When the user clicks on the submit, it should call the function <code>addNewMember</code> with the value of the two inputs and the value of the select element
 * Call the function <code>createFamilyTree</code>
 * Call the function <code>createForm</code>
 
@@ -238,31 +248,30 @@ You are given this starter HTML for this task:
 
 ### 7. Query - Setup your dev environment <a name='subparagraph7'></a>
 
-![](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2020/3/1aa9995ca67d199e7ddc.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20250313%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20250313T114848Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=f3dc669254f092a02a9ae46a4f33669525a41c1e8ca4065cb541ce5ca0994f4f)
-
-![](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2020/3/57dd8327b2855039d8e2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20250313%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20250313T114848Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=ca30a0a32398a64d7185bddd30e889937809256654ae540f71c064feb8c59cd9)
-
 <strong>In a file <code>7-index.html</code>, reuse the template you created in the previous task</strong>
 
 * Remove the functions from the <code>script</code>
 * 
-* 
-* Create a function <code>createSearchForm</code>, it should append to the body:
-* An empty <code>input</code> of type <code>text</code> without ID, name, or class
-* An <code>input</code> of type <code>submit</code>
-* When the user clicks on the submit button, it should query the function <code>queryWikipedia</code> that you are going to create with the value of the text <code>input</code>
-* An empty <code>ul</code> element
-* 
-* It accepts three arguments <code>id</code>(string), <code>title</code>(string), and <code>snippet</code>(string)
-* It create an element <code>li</code>
-* Within the <code>li</code>, add two <code>paragraph</code> elements
-* The first paragraph contains a <code>span</code> tag with the following text: <code>id -</code>, then a <code>b</code> element with the <code>title</code>
-* The second paragraph, should contain the <code>snippet</code>
-* Appends the <code>li</code> to the <code>ul</code> element (created by <code>createSearchForm</code>)
-* 
-* It accepts one argument <code>search</code>(string)
-* Create a data object with attributes required to query a search using the string passed in the argument with Wikipedia
-* For each result returned by the API, call the function <code>addNewArticle</code> with the result’s <code>pageid</code>, <code>title</code>, and <code>snippet</code>
+* * Create a function <code>createSearchForm</code>, it should append to the body:
+
+
+    * An empty <code>input</code> of type <code>text</code> without ID, name, or class
+    * An <code>input</code> of type <code>submit</code>
+
+      * When the user clicks on the submit button, it should query the function <code>queryWikipedia</code> that you are going to create with the value of the text <code>input</code>
+    * An empty <code>ul</code> element
+* * It accepts three arguments <code>id</code>(string), <code>title</code>(string), and <code>snippet</code>(string)
+  * It create an element <code>li</code>
+
+    * Within the <code>li</code>, add two <code>paragraph</code> elements
+
+
+      * The first paragraph contains a <code>span</code> tag with the following text: <code>id -</code>, then a <code>b</code> element with the <code>title</code>
+      * The second paragraph, should contain the <code>snippet</code>
+  * Appends the <code>li</code> to the <code>ul</code> element (created by <code>createSearchForm</code>)
+* * It accepts one argument <code>search</code>(string)
+  * Create a data object with attributes required to query a search using the string passed in the argument with Wikipedia
+  * For each result returned by the API, call the function <code>addNewArticle</code> with the result’s <code>pageid</code>, <code>title</code>, and <code>snippet</code>
 * 
 
 <strong>Requirements:</strong>
@@ -283,27 +292,22 @@ You are given this starter HTML for this task:
 
 ### 8. Pagination <a name='subparagraph8'></a>
 
-![](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2020/3/1aa9995ca67d199e7ddc.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20250313%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20250313T114848Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=f3dc669254f092a02a9ae46a4f33669525a41c1e8ca4065cb541ce5ca0994f4f)
-
-![](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2020/3/4f86ed3cadb452d74841.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20250313%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20250313T114848Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=7fc38f61715e48911df02aa5082a44e1e78d11cb635a72c256dd60b458ef8068)
-
 <strong>In a file <code>8-index.html</code>, reuse the code from the previous task</strong>
 
-* 
-* It should append to the body another list, with the id <code>pagination</code>
-* 
-* Add a new parameter named <code>offset</code>(number)
-* By default, the offset should be set to <code>0</code>
-* Modify the data object to add the <code>offset</code>
-* When you receive the response from the API, call the function <code>buildPagination</code> that you are going to create below
-* 
-* It accepts three arguments <code>numberOfItems</code>(number), <code>itemsPerPage</code>(number), and <code>currentOffset</code>(number)
-* When the function is called, reset the pagination list to an empty tag
-* Write a loop that will display the pagination (using the total number of items divided by the number of items per page)
-* For each page, create a list item
-* Add some CSS for each item (<code>cursor: 'pointer'</code>, <code>10px</code> margin left, and bold when this is the current page)
-* The text of the item should be the page number
-* When clicking on a page number, it should call the function <code>queryWikipedia</code> with the right offset
+* * It should append to the body another list, with the id <code>pagination</code>
+* * Add a new parameter named <code>offset</code>(number)
+  * By default, the offset should be set to <code>0</code>
+  * Modify the data object to add the <code>offset</code>
+  * When you receive the response from the API, call the function <code>buildPagination</code> that you are going to create below
+* * It accepts three arguments <code>numberOfItems</code>(number), <code>itemsPerPage</code>(number), and <code>currentOffset</code>(number)
+  * When the function is called, reset the pagination list to an empty tag
+  * Write a loop that will display the pagination (using the total number of items divided by the number of items per page)
+  * For each page, create a list item
+
+
+    * Add some CSS for each item (<code>cursor: 'pointer'</code>, <code>10px</code> margin left, and bold when this is the current page)
+    * The text of the item should be the page number
+    * When clicking on a page number, it should call the function <code>queryWikipedia</code> with the right offset
 
 <strong>Requirements:</strong>
 
@@ -323,21 +327,17 @@ You are given this starter HTML for this task:
 
 ### 9. Wrap/unwrap <a name='subparagraph9'></a>
 
-![](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2020/3/34aa8b01dbfb14fbb873.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20250313%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20250313T114848Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=86e85faeb932c0f8c1b6433de32a5884c559d4a40e5f68b3a80193e6c8e2da03)
-
 <strong>In a file <code>9-index.html</code>, reuse the code from the previous task</strong>
 
-* 
-* Add a new class named <code>loading</code>
-* Set the opacity at 0.2 within that class
-* 
-* It accepts one argument <code>loading</code>
-* It select the first <code>ul</code> element of the page
-* If <code>loading</code> is true, it wraps the element with a <code>div</code> tag and the class <code>loading</code>
-* If <code>loading</code> is false, it unwrap the <code>ul</code> from the <code>div</code>
-* 
-* It should call the function <code>displayLoading</code> before querying the API
-* Once the API returns the value, it should remove the opacity by calling the function again
+* * Add a new class named <code>loading</code>
+
+    * Set the opacity at 0.2 within that class
+* * It accepts one argument <code>loading</code>
+  * It select the first <code>ul</code> element of the page
+  * If <code>loading</code> is true, it wraps the element with a <code>div</code> tag and the class <code>loading</code>
+  * If <code>loading</code> is false, it unwrap the <code>ul</code> from the <code>div</code>
+* * It should call the function <code>displayLoading</code> before querying the API
+  * Once the API returns the value, it should remove the opacity by calling the function again
 
 <strong>Requirements:</strong>
 
@@ -358,7 +358,7 @@ You are given this starter HTML for this task:
 
 <strong>You are provided with this <code>db.json</code>, don’t forget to push it, you can change the values of the <code>id</code>, <code>title</code>, <code>author</code>, <code>postId</code>, <code>name</code> as you like</strong>
 
-```html
+`html
 {
   "posts": [
     {
@@ -423,21 +423,20 @@ You are given this starter HTML for this task:
     "name": "typicode"
   }
 }
-```
+`
 
 <strong>In a file <code>10-index.html</code>:</strong>
 
 * Reuse your template from the previous task, remove the functions in your <code>script</code> and the <code>style</code> in the head
 * 
-* 
-* It takes into argument <code>data</code> (object)
-* It append to the body a paragraph
-* The paragraph should contain a <code>span</code> element with the text <code>Post created with id ID, title: TITLE, author: AUTHOR</code>
-* Each variable is contained in the <code>data</code> object
-* 
-* It should query your local server on the <code>posts</code> endpoint
-* When the server return a 200 response, it should call the function <code>addPostRow</code> for each element in the response
-* When the server is unavailable, display an alert with the message <code>Server Error</code>
+* * It takes into argument <code>data</code> (object)
+  * It append to the body a paragraph
+  * The paragraph should contain a <code>span</code> element with the text <code>Post created with id ID, title: TITLE, author: AUTHOR</code>
+
+    * Each variable is contained in the <code>data</code> object
+* * It should query your local server on the <code>posts</code> endpoint
+  * When the server return a 200 response, it should call the function <code>addPostRow</code> for each element in the response
+  * When the server is unavailable, display an alert with the message <code>Server Error</code>
 * 
 
 <strong>Requirements:</strong>
@@ -448,22 +447,18 @@ You are given this starter HTML for this task:
 
 ### 11. Post query <a name='subparagraph11'></a>
 
-![](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2020/3/2d127c7a16400751c442.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20250313%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20250313T114848Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=503e89f2b1c2aa6c652093ead4ba1bd5be9e8f1f24300caaf9622cdaf1a58d1e)
-
 <strong>In a file <code>11-index.html</code>, reuse the code you previously wrote</strong>
 
-* 
-* It appends to the body a <code>form</code> element
-* Inside the form, add a <code>div</code> element, with a <code>label</code> for <code>author</code> with text <code>Author</code> and an <code>input</code> of type <code>text</code> with id <code>author</code>
-* Inside the form, add a <code>div</code> element, with a <code>label</code> for <code>title</code> with text <code>Title</code> and a <code>textarea</code> with id <code>title</code>
-* Inside the form, add an <code>input</code> of type <code>submit</code>
-* When clicking on the submit button, call the function <code>sendForm</code> detailed below
-* 
-* It should add after the <code>form</code>, the text <code>About to send the query to the API</code>
-* It should create a data object, with the <code>title</code> and <code>author</code> attributes. The values are the ones within the inputs
-* It should send a <code>POST</code> query to your server endpoint <code>posts</code> with the data
-* If the query succeed, call the function <code>addPostRow</code> with the data coming back from the API
-* If the query does not succeed, it should display an alert with the message <code>Error sending the POST query</code>
+* * It appends to the body a <code>form</code> element
+  * Inside the form, add a <code>div</code> element, with a <code>label</code> for <code>author</code> with text <code>Author</code> and an <code>input</code> of type <code>text</code> with id <code>author</code>
+  * Inside the form, add a <code>div</code> element, with a <code>label</code> for <code>title</code> with text <code>Title</code> and a <code>textarea</code> with id <code>title</code>
+  * Inside the form, add an <code>input</code> of type <code>submit</code>
+  * When clicking on the submit button, call the function <code>sendForm</code> detailed below
+* * It should add after the <code>form</code>, the text <code>About to send the query to the API</code>
+  * It should create a data object, with the <code>title</code> and <code>author</code> attributes. The values are the ones within the inputs
+  * It should send a <code>POST</code> query to your server endpoint <code>posts</code> with the data
+  * If the query succeed, call the function <code>addPostRow</code> with the data coming back from the API
+  * If the query does not succeed, it should display an alert with the message <code>Error sending the POST query</code>
 * 
 
 <strong>Requirements:</strong>
@@ -480,19 +475,17 @@ You are given this starter HTML for this task:
 
 ### 12. Delete query <a name='subparagraph12'></a>
 
-![](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2020/3/b8759684f071da1e1449.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20250313%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20250313T114848Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=721a05c5fd190de460dc988a6bb8663c8b94cbb6473aaabf1ddcdb97b8b8ab5d)
-
 <strong>In a file <code>12-index.html</code>, reuse your code from the previous task</strong>
 
-* 
-* Add an id attribute to the paragraph with <code>row-ID</code> (the ID being the one of the post)
-* Append a <code>span</code> element with the text <code>(delete)</code> to the <code>p</code>, this <code>span</code> should come before the <code>span</code> with the post information
-* On click, call the function <code>deletePost</code> with the post id
-* 
-* It accepts one argument <code>id</code>(number)
-* Send a <code>DELETE</code> query to the <code>posts</code> endpoint with the id of the post
-* If the query is successful, remove the row from the body
-* If the query is not successful, display an alert with the message <code>Post was not deleted</code>
+* * Add an id attribute to the paragraph with <code>row-ID</code> (the ID being the one of the post)
+  * Append a <code>span</code> element with the text <code>(delete)</code> to the <code>p</code>, this <code>span</code> should come before the <code>span</code> with the post information
+
+
+    * On click, call the function <code>deletePost</code> with the post id
+* * It accepts one argument <code>id</code>(number)
+  * Send a <code>DELETE</code> query to the <code>posts</code> endpoint with the id of the post
+  * If the query is successful, remove the row from the body
+  * If the query is not successful, display an alert with the message <code>Post was not deleted</code>
 
 <strong>Requirements:</strong>
 
@@ -506,8 +499,8 @@ You are given this starter HTML for this task:
 
 ### 13. Tasks list <a name='subparagraph13'></a>
 
-* [Mandatory](#mandatory)
-* [Advanced](#advanced)
+* <a data-toggle="tab" href="#mandatory" role="tab">Mandatory</a>
+* <a data-toggle="tab" href="#advanced" role="tab">Advanced</a>
 
 ---
 
